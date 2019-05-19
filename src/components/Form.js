@@ -1,11 +1,11 @@
-import React from "react";
+import React from "react"
 
 const Form = props => {
   const formSubmit = e => {
-    e.preventDefault();
-    const term = e.target.elements.photos.value;
-    props.fetchImages(term);
-  };
+    e.preventDefault()
+    const term = e.target.elements.photos.value
+    props.fetchImages(term)
+  }
 
   return (
     // eslint-disable-next-line react/jsx-filename-extension
@@ -19,7 +19,7 @@ const Form = props => {
         />
       </form>
     </div>
-  );
-};
+  )
+}
 
-export default Form;
+export default Form
