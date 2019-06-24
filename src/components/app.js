@@ -73,7 +73,7 @@ class App extends Component {
           </p>
           <div className='flex flex-wrap'>
             {this.state.images.map(image => (
-              <div className='w-full md:w-1/3 px-4'>
+              <div className='w-full md:w-1/3 md:px-4'>
                 <Image image={image} key={image.id} />
               </div>
             ))}
