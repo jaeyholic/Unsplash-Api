@@ -26,12 +26,16 @@ class App extends Component {
     });
 
     try {
-      const response = await axios.get(process.env.REACT_APP_API_BASE_URL, {
-        params: {
-          client_id: process.env.REACT_APP_API_KEY,
-          query: term,
-        },
-      });
+      const response = await axios.get(
+        "https://api.unsplash.com/search/photos",
+        {
+          params: {
+            client_id:
+              "f38d0f1aa104ff3a7ea72fa9a90f0beccff30c1ab3621f28ff13ad5e722caf28",
+            query: term,
+          },
+        }
+      );
       this.setState({
         status: "done",
         images: response.data.results,
