@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "axios": "^0.18.0",
-    "mobx": "^5.9.4",
-    "mobx-react": "^5.4.3",
-    "react": "^16.8",
-    "react-dom": "^16.8",
-    "react-scripts": "2.1.5"
+    "axios": "^0.19.2",
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.2.2",
+    "react": "^16.13",
+    "react-dom": "^16.13",
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "build:css": "postcss tailwindcss/tailwind.src.css -o src/css/tailwind.css",
@@ -29,16 +29,16 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "autoprefixer": "^9.4.2",
-    "eslint-config-kentcdodds": "^14.2.0",
-    "eslint-config-prettier": "^4.1.0",
-    "eslint-plugin-prettier": "^3.0.1",
-    "eslint-plugin-react": "^7.12.4",
+    "autoprefixer": "^9.8.4",
+    "eslint-config-kentcdodds": "^14.14.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.1",
     "npm-run-all": "^4.1.5",
-    "postcss": "^7.0.6",
-    "postcss-cli": "^6.0.1",
-    "postcss-nested": "^4.1.1",
-    "prettier": "^1.16.4",
-    "tailwindcss": "^1.0.0-beta.4"
+    "postcss": "^7.0.32",
+    "postcss-cli": "^7.1.1",
+    "postcss-nested": "^4.2.1",
+    "prettier": "^2.0.5",
+    "tailwindcss": "^1.4.6"
   }
 }
